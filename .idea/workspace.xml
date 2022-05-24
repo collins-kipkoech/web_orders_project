@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b25b44-6581-45ae-8621-f859959ab84b" name="Changes" comment="" />
+    <list default="true" id="e0b25b44-6581-45ae-8621-f859959ab84b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +44,29 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="LoginTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web_orders_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.LoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTest.testLogin" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653373880801</updated>
-      <workItem from="1653373882104" duration="663000" />
+      <workItem from="1653373882104" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="added config properties file to store data">
       <created>1653374177872</created>
@@ -63,7 +91,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653374537318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added a config reader class for reading contents from the config properties file">
+      <created>1653374627002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653374627002</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added a driver class that implements singleton design pattern to generate only one driver instance">
+      <created>1653374730875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653374730875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created testbase class that will be inherited by other classes. It has methods that runs before and after">
+      <created>1653374823405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653374823405</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +121,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added config properties file to store data" />
     <MESSAGE value="added browser utility class with wait method for waiting for certain element to appear before throwing an error" />
-    <option name="LAST_COMMIT_MESSAGE" value="added browser utility class with wait method for waiting for certain element to appear before throwing an error" />
+    <MESSAGE value="added a config reader class for reading contents from the config properties file" />
+    <MESSAGE value="added a driver class that implements singleton design pattern to generate only one driver instance" />
+    <MESSAGE value="created testbase class that will be inherited by other classes. It has methods that runs before and after" />
+    <option name="LAST_COMMIT_MESSAGE" value="created testbase class that will be inherited by other classes. It has methods that runs before and after" />
   </component>
 </project>
